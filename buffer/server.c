@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 
     memset(&myaddr,0,sizeof(myaddr));
     myaddr.sin_family = AF_INET;
-    myaddr.sin_addr.s_addr = inet_addr("192.168.0.104");
+    myaddr.sin_addr.s_addr = INADDR_ANY;
     myaddr.sin_port = htons(8080);
 
     if(bind(sockfd,(struct sockaddr *)&myaddr,sizeof(myaddr))!=0)
