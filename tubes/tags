@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PALIN.py	spoj/PALIN.py	1;"	kind:file	line:1
+first_init_input	codingame.com/reverseE.py	/^first_init_input = int(input())$/;"	kind:variable	line:7
+first_input	codingame.com/reverseE.py	/^    first_input = input()$/;"	kind:variable	line:13
+fourth_input	codingame.com/reverseE.py	/^    fourth_input = input()$/;"	kind:variable	line:16
+is_palindrome	spoj/PALIN.py	/^def is_palindrome(number):$/;"	kind:function	line:1
+math	codingame.com/reverseE.py	/^import math$/;"	kind:namespace	line:2
+palin	spoj/PALIN.py	/^def palin():$/;"	kind:function	line:4
+palin_naive	spoj/PALIN.py	/^def palin_naive():$/;"	kind:function	line:7
+reverseE.py	codingame.com/reverseE.py	1;"	kind:file	line:1
+second_init_input	codingame.com/reverseE.py	/^second_init_input = int(input())$/;"	kind:variable	line:8
+second_input	codingame.com/reverseE.py	/^    second_input = input()$/;"	kind:variable	line:14
+sys	codingame.com/reverseE.py	/^import sys$/;"	kind:namespace	line:1
+third_init_input	codingame.com/reverseE.py	/^third_init_input = int(input())$/;"	kind:variable	line:9
+third_input	codingame.com/reverseE.py	/^    third_input = input()$/;"	kind:variable	line:15
