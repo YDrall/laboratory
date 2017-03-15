@@ -1,3 +1,5 @@
 *.class
 *.log
 *.log.lck
+*.out
+.vscode/
