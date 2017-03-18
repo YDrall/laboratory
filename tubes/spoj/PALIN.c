@@ -6,6 +6,8 @@ int main() {
     char input[1000000];
     char c;
     int len = 0;
+    int firstPointer;
+    int secondPointer;
     scanf("%d",&testcases);
     getchar(); // to skip \n after scanf
     while(testcases--) {
