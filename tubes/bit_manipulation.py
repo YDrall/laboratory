@@ -12,7 +12,7 @@ def flip_bit(x ,position):
 
 def is_bit_set(x ,position):
     shiftedx = x >> position
-    return shiftedx & 1
+    return (shiftedx & 1) == 1
 
 def modify_bit(x, position, state):
     mask = x << position
