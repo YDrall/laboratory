@@ -23,3 +23,21 @@ def is_even(x):
 
 def is_power_of_two(x):
     return (x & (x-1)) ==0
+
+def count_bit(x):
+    count =0
+    while(x>0):
+        count += x&1
+        x = x>>1
+    return count
+
+def count_bit_fast(x):
+    count =0
+    while(x):
+        x = x&(x-1)
+        count +=1
+    return count
+
+def bits_diffs_count(x,y):
+    return count_bit(x^y)
+
