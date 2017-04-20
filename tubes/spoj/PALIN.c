@@ -17,6 +17,7 @@ int main() {
             len +=1;
         }
         input[len]='\0';
-        
+        input[0] = (char)((int)(input[0] - '0') -1);
+        printf("%d\n",input[0]);
     }
 }
